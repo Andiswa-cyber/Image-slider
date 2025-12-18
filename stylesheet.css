@@ -1,0 +1,28 @@
+#B1{display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
+.btts{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#slider{
+    -webkit-appearance: none;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
